@@ -1,0 +1,27 @@
+1. Quais são os 4 verbos que utilizamos para o CRUD?
+	R: Create, Read, Uptade e Delete.
+
+2. Para que foram inventados os Status Codes? Dê exemplo de 1 código por grupo e a imagem do Cat Status Code.
+	R: Os Status Codes foram criados para identificar o tipo de resposta que uma requisição HTTP retorna.
+
+	100 - Informacionais
+		https://http.cat/100
+
+	200 - Sucesso
+		https://http.cat/200
+
+	300 - Redirecionamento
+		https://http.cat/301 - Movido permanentemente
+		https://http.cat/302 - Movido temporariamente
+
+	400 - Proibido
+		https://http.cat/404 - Não encontrado
+
+	500 - Erro de servidor
+		https://http.cat/500 - Internal Server Error
+
+3. Explique o que é cada parâmetro da função recebida no 'createServer'.
+	R: Os parâmetros recebidos no createServer são request e response. Eles são utilizados para enviar ou solicitar dados na requisição ao HTTP.
+
+4. O que é e pare que server QueryStrings?
+	R: São valores passados pela URL. Servem para identificar e recuperar informações do banco de dados que serão disponibilizados diretamente na URL.
