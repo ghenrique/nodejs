@@ -1,0 +1,18 @@
+2. Qual a diferença entre GET e POST?
+	R: Utilizamos o método GET para recolher informações do servidor e utilizá-las na nossa aplicação. Já o POST é utilizado para enviar novas informações ao servidor.
+
+3. Crie um Pokemon na nossa API com o seu nome, depois modifique o nome para seu user do GitHub, colocando aqui a resposta de cada passo.
+	- Criação do Pokemon:
+		STATUS: 201
+		HEADERS: {"server":"Cowboy","connection":"close","x-powered-by":"Express","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"83","etag":"W/\"53-33EoSD3qK8WqoMBiazU65g\"","date":"Sat, 09 Sep 2017 17:44:35 GMT","via":"1.1 vegur"}
+		Requisição realizada: {"__v":0,"name":"Pokemon Guilherme","type":"Fire","_id":"59b428836f932500123990a9"}
+
+	- Modificação do nome:
+		STATUS: 202
+		HEADERS: {"server":"Cowboy","connection":"close","x-powered-by":"Express","access-control-allow-origin":"*","content-type":"application/json; charset=utf-8","content-length":"121","etag":"W/\"79-NBLHKwq1yvtSjDLPBGqcEA\"","date":"Sat, 09 Sep 2017 17:45:56 GMT","via":"1.1 vegur"}
+		Requisição realizada: {"data":{"n":1,"nModified":1,"opTime":{"ts":"6463836256181682177","t":5},"electionId":"7fffffff0000000000000005","ok":1}}
+
+4. Depois faça o DELETE, criando o script para tal, colocando aqui sua resposta.
+	- Delete do Pokemon:
+		STATUS: 204
+		HEADERS: {"server":"Cowboy","content-length":"0","connection":"close","x-powered-by":"Express","access-control-allow-origin":"*","date":"Sat, 09 Sep 2017 17:52:50 GMT","via":"1.1 vegur"}
